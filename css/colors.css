@@ -1,0 +1,68 @@
+/* Variables unificadas para fácil mantenimiento */
+:root {
+    --bg-canvas: #f8f9fa;
+    --bg-card: #ffffff;
+    --text-primary: #333333;
+    --text-muted: #666666;
+    --accent-blue: #457b9d;
+    --border-color: #e9ecef;
+}
+
+body {
+    background-color: var(--bg-canvas);
+    color: var(--text-primary);
+}
+
+.logo {
+    color: var(--text-primary);
+}
+
+.badge {
+    background-color: var(--border-color);
+    color: var(--accent-blue);
+}
+
+h1 {
+    color: var(--text-primary);
+}
+
+.hero-content p {
+    color: var(--text-muted);
+}
+
+.form-container {
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-color);
+}
+
+.form-subtitle {
+    color: var(--text-muted);
+}
+
+.input-field {
+    background-color: var(--bg-canvas);
+    border-color: var(--border-color);
+    color: var(--text-primary);
+}
+
+.input-field:focus {
+    border-color: var(--accent-blue);
+}
+
+.btn-submit {
+    background-color: var(--accent-blue);
+    color: #ffffff;
+}
+
+.main-footer {
+    color: var(--text-muted);
+}
+
+.main-footer a {
+    color: var(--accent-blue);
+    text-decoration: none;
+}
+
+.main-footer a:hover {
+    text-decoration: underline;
+}
